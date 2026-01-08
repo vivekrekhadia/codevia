@@ -118,18 +118,6 @@ body {
   background-image: url(../img/facebook-iconw.png);
 }
 
-.side-icons span.linkedin-icon:hover {
-  background-image: url(../img/linkedin-iconr.png);
-}
-
-.side-icons span.instagram-icon:hover {
-  background-image: url(../img/instagram-iconr.png);
-}
-
-.side-icons span.facebook-icon:hover {
-  background-image: url(../img/facebook-iconr.png);
-}
-
 .vlt-experience-block {
   padding: 0px;
 
@@ -2088,4 +2076,32 @@ section.industry .iconsdiv .owl-dots {
   width: 115px;
 
   margin-left: 5px;
+}
+
+/* Offcanvas Menu White Theme Overrides */
+.vlt-offcanvas-menu {
+  background-color: #ffffff !important;
+  color: #161616 !important;
+}
+
+.vlt-offcanvas-menu__header .vlt-menu-burger {
+  color: #161616 !important;
+}
+
+.vlt-offcanvas-menu__navigation .sf-menu > li > a {
+  color: #161616 !important;
+}
+
+.vlt-offcanvas-menu__socials .side-icons span {
+  filter: invert(1);
+}
+
+.vlt-offcanvas-menu__copyright p {
+  color: #161616 !important;
+}
+
+/* Ensure the inserted heading looks right */
+.vlt-offcanvas-menu__footer .vlt-large-heading {
+  margin-bottom: 2rem;
+  color: #161616 !important;
 }
